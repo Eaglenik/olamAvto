@@ -1,0 +1,8 @@
+{
+    "name": "user/avtoolam",
+    "description": "simple descr",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "6.8.0"
+    }
+}

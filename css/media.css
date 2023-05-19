@@ -1,0 +1,505 @@
+@media (max-width:1600px){
+    .header-img{
+        max-width: 812px;
+        max-height: 558px;
+        top: 250px;
+    }
+    .header-img img{
+        right: -132px;
+        position: relative;
+    }
+}
+@media (max-width:1500px){
+    .newAvto .owl-carousel{
+        width: 85%;
+    }
+}
+@media (max-width: 1200px){
+    .howBuy-stage p{
+        max-width: unset;
+    }
+    .questions-info form input{
+        width: 100%;
+    }
+}
+@media (max-width:1300px){
+    .questions-info p{
+        margin-bottom: 40px;
+        font-size: 22px;
+        line-height: 31px;
+    }
+    .questions-info button{
+        margin: 30px 0;
+        height: 70px;
+    }
+    .questions-info h4{
+        font-size: 60px;
+        line-height: 72px;
+    }
+    .navbar-contact .btn-primary{
+        display: flex;
+    }
+    .navbar-list{
+        display: none;
+    }
+    .navbar{
+        padding: 50px 20px;
+    }
+    .header-img{
+        max-width: 600px;
+        max-height: 430px;
+    }
+    .header-img img{
+        right: -60px;
+    }
+    .header{
+        height: 518px;
+        border-radius: 74.5614px 74.5614px 372.807px 74.5614px;
+        padding: 46px 0 0 70px;
+    }
+    .header-text h1{
+        font-size: 75px;
+        line-height: 90px;
+    }
+    .header-text h3{
+        font-size: 37px;
+        line-height: 44px;
+        margin: 30px 0 52px 0;
+        max-width: 745px;
+    }
+    .header-text p{
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 58px;
+    }
+    .header-text a{
+        width: 435px;
+        height: 75px;
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .newAvto-slider .owl-prev,
+    .review-slider .owl-prev{
+        left: -75px;
+    }
+    .newAvto-slider .owl-next,
+    .review-slider .owl-next{
+        right: -75px;
+    }
+}
+@media (max-width:992px){
+    .header-img{
+        max-width: 430px;
+        top: 310px;
+    }
+    .header-text h1{
+        font-size: 55px;
+        line-height: 70px;
+    }
+    .header-text h3{
+        font-size: 20px;
+        line-height: 34px;
+        margin: 20px 0 32px 0;
+        max-width: 400px;
+    }
+    .header-text p{
+        font-size: 20px;
+        line-height: 29px;
+        margin-bottom: 30px;
+    }
+    .header-text a{
+        width: 340px;
+        height: 65px;
+        font-size: 19px;
+        line-height: 30px;
+    }
+    .title {
+        font-size: 60px;
+        line-height: 74px;
+    }
+    .tradein p:first-child{
+        margin-bottom: 40px;
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .map,
+    iframe{
+        height: 600px;
+    }
+    .map-info{
+        display: none;
+    }
+    .footer-info{
+        column-gap: 50px;
+    }
+    #top{
+        width: 50px;
+        height: 50px;
+        bottom: 10px;
+        right: 10px;
+    }
+    
+    .priceAvto-form_specifications .row{
+        column-gap: unset;
+    }
+    .custom-select-wrapper{
+        width: 50%;
+    }
+    .priceAvtoOld-form_btn input,
+    .priceAvtoOld-form_btn button{
+        width: 100%;
+    }
+    .priceAvtoOld-form_btn button{
+        padding: 20px 0;
+    }
+    .priceAvtoOld-form_btn{
+        height: 130px;
+    }
+}
+@media (max-width:768px){
+    .review-item{
+        max-height: 400px;
+        min-height: 400px;
+    }
+    .priceAvto-form_btn--number{
+        display: none;
+    }
+    .priceAvto-form_btn{
+        background: unset;
+    }
+    .priceAvto-form_data input{
+        width: 100%;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer-contact_links{
+        justify-content: space-around;
+    }
+    .footer-contact_links .navbar-contact_link{
+        width: 55px;
+        height: 55px;
+    }
+    .navbar-contact .btn-primary{
+        display: flex;
+    }
+    .navbar-contact_link{
+        width: 30px;
+        height: 30px;
+    }
+    .navbar-contact_link img{
+        width: 50%;
+    }
+    .navbar{
+        padding: 22px 20px;
+    }
+    .navbar .offcanvas-header{
+        margin-bottom: unset;
+    }
+    .navbar .offcanvas-body{
+        padding: 0 40px;
+    }
+    .header-back{
+        padding: unset;
+    }
+    .header{
+        border-radius: 50px;
+        height: 780px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 20px 20px 20px 20px;
+    }
+    .header-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-img{
+        max-width: 524px;
+        top: 300px;
+    }
+    .header-text h1{
+        font-size: 44px;
+        line-height: 51px;
+    }
+    .header-text h3{
+        font-size: 30px;
+        line-height: 46px;
+        margin: 20px 0 260px 0;
+        max-width: 400px;
+    }
+    .header-text p{
+        font-size: 22px;
+        line-height: 31px;
+        margin-bottom: 30px;
+    }
+    .header-text a{
+        width: 320px;
+        height: 95px;
+        font-size: 22px;
+        line-height: 31px;
+        border-radius: 100px;
+    }
+    .tradein{
+        text-align: center;
+    }
+    .tradein-stage{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tradein-stage{
+        width: 100%;
+    }
+    .newAvto .owl-carousel{
+        width: 75%;
+    }
+    .title{
+        font-size: 44px;
+        line-height: 53px;
+        text-align: center;
+    }
+    .examination{
+        text-align: center;
+        gap: 60px;
+    }
+    .howBuy{
+        margin-bottom: 80px;
+    }
+    .examination-img{
+        max-width: 500px;
+    }
+    .questions{
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .questions-info h4{
+        font-size: 44px;
+        line-height: 53px;
+    }
+    .custom-select-wrapper{
+        width: 100%;
+    }
+    .footer-info_blk:first-of-type{
+        margin-bottom: 20px;
+    }
+    .review{
+        margin-bottom: unset;
+    }
+    .map-text{
+        display: flex;
+    }
+    .priceAvto-back{
+        margin: 60px 0 90px 0;
+        padding: 60px 0 140px 0;
+    }
+    .newAvto .nav{
+        margin: 40px 0 40px 0;
+    }
+    .modal-main{
+        padding: 50px 20px;
+    }
+    .modal-main span{
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 30px;
+    }
+    .modal-main p{
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 50px;
+    }
+    .modal-main button{
+        width: 100%;
+        height: 60px;
+        font-size: 25px;
+        line-height: 25px;
+    }
+}
+@media (max-width:543px){
+    .header{
+        margin-bottom: 80px;
+    }
+    .header-img{
+        width: 524px;
+    }
+    .header-img img{
+        right: -140px;
+    }
+   
+    .tradein h2{
+        font-size: 44px;
+        line-height: 53px;
+        margin-bottom: 40px;
+    }
+    .tradein-stage span{
+        width: 70px;
+        height: 70px;
+        font-size: 45px;
+        line-height: 54px;
+    }
+    .tradein-stage p{
+        font-size: 22px;
+        line-height: 31px;
+    }
+    .tradein{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:576px){
+    .priceAvto-form_state--item{
+        min-width: unset;
+    }
+    .howBuy{
+        text-align: center;
+    }
+    .howBuy h3{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .priceAvto h5{
+        text-align: center;
+    }
+    .priceAvto-form_state--item{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .howBuy-stage{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .howBuy-stage span{
+        width: 70px;
+        height: 70px;
+        font-size: 45px;
+        line-height: 54px;
+        font-weight: 700;
+    }
+    .howBuy-stage p{
+        font-size: 22px;
+        line-height: 34px;
+    }
+    .newAvto-item_btn{
+        padding-left: unset;
+    }
+    .newAvto-item_btn button{
+        font-size: 24px;
+        line-height: 34px;
+        max-width: unset;
+    }
+    .newAvto .owl-carousel{
+        width: 100%;
+    }
+    .newAvto-slider .owl-prev,
+    .review-slider .owl-prev{
+        left: -10px;
+    }
+    .newAvto-slider .owl-next,
+    .review-slider .owl-next{
+        right: -10px;
+    }
+    .newAvto-slider .icon-arrL::before,
+    .newAvto-slider .icon-arrR::before,
+    .review-slider .icon-arrL::before,
+    .review-slider .icon-arrR::before{
+        color: var(--red);
+        font-size: 10px;
+    }
+    .newAvto-slider .owl-nav button{
+        width: 30px;
+        height: 30px;
+        top: 20%;
+    }
+    .review-slider .owl-nav button{
+        display: none;
+    }
+    .newAvto-item_info h3,
+    .newAvto-item_info p{
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .newAvto-item_info--list{
+        gap: 30px;
+    }
+    .newAvto-item_info--list li,
+    .newAvto-item_info--list li p{
+        font-size: 16px;
+        line-height: 24px;
+        text-align: start;
+        margin-bottom: 15px;
+    }
+   .navbar-contact .navbar-contact_link,
+   .navbar-contact .dropdown{
+    display: none;
+   }
+   .navbar .offcanvas-end{
+    width: 100%;
+   }
+   .navbar .offcanvas-header{
+    border-bottom: 1px solid #d9d9d9;
+   }
+   .offcanvas-body .navbar-list{
+    margin: 60px 0;
+    }
+    .navbar .offcanvas-body{
+        padding: 0 20px;
+    }
+    .sidebar-contact{
+        margin-top: 35px;
+    }
+    .examination-text h3{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .examination-text p{
+        font-size: 22px;
+        line-height: 31px;
+    }
+    .review h2{
+        text-align: center;
+    }
+    .review-item{
+        padding: 20px;
+    }
+    .review-item h5{
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .review-item span{
+        font-size: 16px;
+        line-height: 34px;
+        margin: 5px 0 25px 0;
+    }
+    .review-item {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .footer-info h4{
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .footer-info a{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .footer-contact p{
+        font-size: 16px;
+    }
+    .footer-contact_links span{
+        font-size: 32px;
+        line-height: 45px;
+    }
+    .footer-contact p:last-of-type{
+        font-size: 14px;
+        white-space: normal;
+    }
+    .priceAvto .title{
+        font-size: 32px;
+        line-height: 38px;
+    }
+}

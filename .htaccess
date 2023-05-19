@@ -1,0 +1,15 @@
+# включаем механизм mod_rewrite
+RewriteEngine On
+# задаём 3 дополнительных условия для правила RewriteRule, находящего сразу после этих директив:
+### 1. если запрос не является файлом
+RewriteCond %{REQUEST_FILENAME} !-f
+### 2. если запрос не является файлом
+RewriteCond %{REQUEST_FILENAME} !-d
+### 3. если запрос при добавлении к нему .php является файлом
+RewriteCond %{REQUEST_FILENAME}.php -f
+# если все 3 дополнительных условия выполнены и строка соответствует регулярному выражению (^.*$), то преобразовываем строку в новую посредством добавления к ней .php и отменяем следующие проверки (флаг L)
+RewriteRule ^.*$ $0.php [L,QSA]
+RewriteCond %{THE_REQUEST} ([^\s]*)\.php(\?[^\s]*)?
+RewriteRule (.*) %1 [R=301,L]
+RewriteEngine On
+RewriteRule ^index.php$ / [QSA,R]
